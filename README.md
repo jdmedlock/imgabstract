@@ -24,7 +24,7 @@ You can get feedback on your project by sharing it with your friends on Facebook
 
 - [Google Custom Search API](https://developers.google.com/custom-search/)
 
-## Create React App Generated Notes
+## Create-React-App Generated Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
