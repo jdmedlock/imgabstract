@@ -10,19 +10,34 @@ Once you've finished implementing these user stories, click the "I've completed 
 
 You can get feedback on your project by sharing it with your friends on Facebook.
 
-## User Stories - FCC
+### User Stories - FCC
 
 1. I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
 2. I can paginate through the responses by adding a ?offset=2 parameter to the URL.
 3. I can get a list of the most recently submitted search strings.
 
-## User Stories - Stretch Goals
+### User Stories - Stretch Goals
 
 4. I want a polished user interface and to get experience using Reac.t
 
-## Resources
+### Resources
 
 - [Google Custom Search API](https://developers.google.com/custom-search/)
+
+## Application Design
+
+### Overview
+
+Although the FCC user stories dictate that this challenge be implemented as
+a simple API I've chosen to expand the scope to also include a more friendly 
+user interface implemented in React to allow me to test my React skills. A
+secondary benefit of this expanded scope is to provide an in-screen log of
+the programs progress to assist in debugging core functionality.
+
+### Screen Layout
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screen Layout")
+
 
 ## Create-React-App Generated Notes
 
