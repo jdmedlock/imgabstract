@@ -36,7 +36,7 @@ the programs progress to assist in debugging core functionality.
 
 ### Screen Layout
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screen Layout")
+![Screen Layout image](https://github.com/jdmedlock/imgabstract/blob/master/images/Image%20Search%20Abstraction.png "Screen Layout")
 
 
 ## Create-React-App Generated Notes
