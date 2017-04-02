@@ -35,9 +35,10 @@ secondary benefit of this expanded scope is to provide an in-screen log of
 the programs progress to assist in debugging core functionality.
 
 ### Screen Layout
-
+---
 ![Screen Layout image](https://github.com/jdmedlock/imgabstract/blob/master/images/Image%20Search%20Abstraction.png "Screen Layout")
 
+---
 
 ## Create-React-App Generated Notes
 
