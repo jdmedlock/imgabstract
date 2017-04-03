@@ -40,6 +40,16 @@ the programs progress to assist in debugging core functionality.
 
 ---
 
+#### React Components
+
+The React components that make up the application screen are:
+
+- App
+  - PageHeader
+  - SearchTerm
+  - SearchResults
+  - PageFooter
+
 ## Create-React-App Generated Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
