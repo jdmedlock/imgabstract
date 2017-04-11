@@ -4,7 +4,7 @@ class SearchResults extends Component {
   render() {
     return (
       <div>
-        <h2>Search Results</h2>
+        <h2>Search Results goes here</h2>
       </div>
     );
   }
