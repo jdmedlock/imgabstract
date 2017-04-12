@@ -2,48 +2,57 @@
   width: 100%;
 }
 
-#banner-inner, #pagebody-inner, #nav-inner, #footer-inner { 
+/*-----------------------------------------------------------------------------
+ * Common attributes
+ * ---------------------------------------------------------------------------*/
+#banner-inner, #pagebody-inner, #footer-inner { 
 	width: 1000px;
-  margin-top: 5px;
+  margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-align: center;
 	}
 
-body, #banner, #footer a, #footer a:hover { 
-  background: #F1F8E9; 
+#banner { 
+	background: #00BCD4;
 }
 
+/*-----------------------------------------------------------------------------
+ * Page Banner
+ * ---------------------------------------------------------------------------*/
 #banner { 
   background: #00BCD4;
   height: auto;
 }
 
+#banner-header, #banner-description {
+	margin-left: 10px;
+}
+
 #banner-inner { 
 	position: relative; 
 	top: 0;
-	padding: 10px 0px;
+	padding: 0px 10px 10px 0px;
 	background: transparent;
 	border: 0;
 }
 	
-/* Nav Bar Color */ 
-#nav, #nav-inner, .nav-list, .nav-list-item a, .nav-list-item a:hover {
-	background-color: #fff;
-	color: #333;
-	}
-
-/* Nav Bar Color */ 
-#nav, #footer {
-	border-top: 4px double #ddd;
-	border-bottom: 4px double #ddd;
-	}
-
-#banner-header, #banner-description {
-	margin-left: 10px;
-	}
-
+/*-----------------------------------------------------------------------------
+ * Page Footer
+ *---------------------------------------------------------------------------*/
 #footer {
-  background: #00ACC1;
+}
+
+#footer-inner {
+}
+
+#footer a, #footer a:hover  { 
+}
+
+/*-----------------------------------------------------------------------------
+ * HTML Tags
+ *---------------------------------------------------------------------------*/
+body {
+  background: #F1F8E9; 
 }

@@ -4,7 +4,12 @@ class SearchResults extends Component {
   render() {
     return (
       <div>
-        <h2>Search Results goes here</h2>
+        <div>
+          <br/>
+          <label>Search Results:</label>
+          <br/>
+          <input type="text" name="searchTerms" disabled />
+        </div>
       </div>
     );
   }

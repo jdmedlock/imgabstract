@@ -4,7 +4,16 @@ class SearchTerm extends Component {
   render() {
     return (
        <div>
-        <h2>Search Term Form goes here</h2> 
+         <form>
+          <br/>
+          <label>Search Term(s):</label>
+          &nbsp; &nbsp;
+          <input type="text" name="searchTerms" />
+          &nbsp;&nbsp;&nbsp;
+          <input type="submit" value="Submit"/>
+          &nbsp;
+          <input type="Reset" value="Reset"/>
+        </form>
       </div>
     );
   }
