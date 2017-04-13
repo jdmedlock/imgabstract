@@ -14,7 +14,7 @@ class PageFooter extends Component {
             <FACodePen />&nbsp;CodePen</a>
           &nbsp; &nbsp;
           <a href="http://www.freecodecamp.com/jdmedlock" target="_blank">
-            <FAFire />&nbsp;Freecodecamp</a>
+            (<FAFire />)&nbsp;Freecodecamp</a>
           &nbsp; &nbsp;
           <a href="https://github.com/jdmedlock" target="_blank">
             <FAGitHub />&nbsp;GitHub</a>

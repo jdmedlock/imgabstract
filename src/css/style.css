@@ -1,3 +1,15 @@
+/*-----------------------------------------------------------------------------
+ * HTML Tags
+ *---------------------------------------------------------------------------*/
+body {
+  background: #F1F8E9; 
+}
+
+html {
+  font-family: "Roboto";
+  position: relative;
+}
+
 #container { 
   width: 100%;
 }
@@ -6,7 +18,7 @@
  * Common attributes
  * ---------------------------------------------------------------------------*/
 #banner-inner, #pagebody-inner, #footer-inner { 
-	width: 1000px;
+	width: 100%;
   margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -27,7 +39,7 @@
 }
 
 #banner-header, #banner-description {
-	margin-left: 10px;
+	margin-left: 2%;
 }
 
 #banner-inner { 
@@ -51,8 +63,21 @@
 }
 
 /*-----------------------------------------------------------------------------
- * HTML Tags
+ * Search Terms & Results
  *---------------------------------------------------------------------------*/
-body {
-  background: #F1F8E9; 
+#search {
+	margin-left: 10%;
 }
+
+#search-terms {
+	margin: 0px 5px;
+	width: 35%;
+}
+
+#search-results {
+	line-height: 300%;
+	margin: 0px 20px;
+	width: 80%;
+}
+
+

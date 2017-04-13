@@ -7,8 +7,7 @@ class SearchResults extends Component {
         <div>
           <br/>
           <label>Search Results:</label>
-          <br/>
-          <input type="text" name="searchTerms" disabled />
+          <input id="search-results" type="text" name="searchTerms" disabled />
         </div>
       </div>
     );

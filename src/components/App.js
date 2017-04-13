@@ -12,8 +12,10 @@ class App extends Component {
     return (
          <div className="App">
             <PageHeader />
-            <SearchTerm />
-            <SearchResults />
+            <div id="search">
+              <SearchTerm />
+              <SearchResults />
+            </div>
             <PageFooter />
          </div>
     );

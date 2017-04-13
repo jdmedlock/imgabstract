@@ -8,7 +8,8 @@ class SearchTerm extends Component {
           <br/>
           <label>Search Term(s):</label>
           &nbsp; &nbsp;
-          <input type="text" name="searchTerms" />
+          <input id="search-terms" type="text" name="searchTerms" 
+            placeholder="Enter term(s) separated by commas" />
           &nbsp;&nbsp;&nbsp;
           <input type="submit" value="Submit"/>
           &nbsp;
