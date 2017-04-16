@@ -12,7 +12,9 @@ class SearchTerm extends Component {
  }
 
   handleChange(event) {
-    this.setState({searchTerms: event.target.value});
+    this.setState({
+      searchTerms: event.target.value
+    });
   }
 
   handleSubmit(event) {
