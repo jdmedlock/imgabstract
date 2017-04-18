@@ -10,14 +10,14 @@ import PageFooter from './client/PageFooter';
 class App extends Component {
   render() {
     return (
-         <div className="App">
-            <PageHeader />
-            <div id="search">
-              <SearchTerm />
-              <SearchResults />
-            </div>
-            <PageFooter />
-         </div>
+      <div className="App">
+        <PageHeader />
+        <div id="search">
+          <SearchTerm />
+          <SearchResults />
+        </div>
+        <PageFooter />
+      </div>
     );
   }
 }

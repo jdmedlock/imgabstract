@@ -6,7 +6,7 @@ class PageHeader extends Component {
       <div id="banner">
         <div id="banner-inner">
           <div id="banner-header">
-            <h1 id="banner-description">FCC Image Search Abstraction API Project</h1> 
+            <h1 id="banner-description">FCC Image Search Abstraction API Project</h1>
           </div>
         </div>
       </div>

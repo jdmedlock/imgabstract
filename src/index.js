@@ -6,12 +6,12 @@ import Routes from './components/shared/Routes';
 
 // Material UI functions
 import injectTapEventPlugin from 'react-tap-event-plugin';
+
+const root = document.getElementById('root')
 injectTapEventPlugin();
-
-
 ReactDOM.render(
   <Routes />,
-  document.getElementById('root')
+  root,
 );
 
 if (module.hot) { 
