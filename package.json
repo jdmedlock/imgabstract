@@ -1,19 +1,47 @@
 {
   "name": "imgabstract",
   "version": "0.1.0",
+  "description": "Image Search Abstraction",
   "private": true,
-  "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-scripts": "^0.9.5"
+  "author": "Jim Medlock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdmedlock/imgabstract/issues"
   },
-  "devDependencies": {
-    "react-scripts": "0.9.5"
+  "homepage": "https://github.com/jdmedlock/imgabstract#readme",
+  "main": "utils/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdmedlock/imgabstract.git"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3000 react-scripts start",
+    "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
+    "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
+    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "autoprefixer-stylus": "^0.13.0",
+    "concurrently": "^3.4.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-react": "6.10.3",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "font-awesome": "^4.7.0",
+    "history": "^4.5.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-icons": "^2.2.3",
+    "react-native": "^0.43.3",
+    "react-router": "4.0.0",
+    "react-router-dom": "4.0.0",
+    "react-router-native": "4.0.0",
+    "react-scripts": "^0.9.5",
+    "react-tap-event-plugin": "^2.0.1",
+    "stylus": "^0.54.5"
   }
 }

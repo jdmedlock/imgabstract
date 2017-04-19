@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
 
+// Routes
+import Routes from './components/shared/Routes';
+
+// Material UI functions
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+const root = document.getElementById('root')
+injectTapEventPlugin();
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <Routes />,
+  root,
 );
 
 if (module.hot) { 
   module.hot.accept();
 }
-
