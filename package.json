@@ -9,30 +9,24 @@
     "url": "https://github.com/jdmedlock/imgabstract/issues"
   },
   "homepage": "https://github.com/jdmedlock/imgabstract#readme",
-  "main": "utils/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jdmedlock/imgabstract.git"
-  },
+  "main": "/src/client/index.js",
+  "repository": "https://github.com/jdmedlock/imgabstract.git",
   "scripts": {
-    "start": "PORT=3000 react-scripts start",
-    "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
-    "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
-    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "NODE_ENV=development webpack-dev-server",
+    "build": "NODE_ENV=development webpack --progress --profile --colors",
+    "prod": "NODE_ENV=production webpack -p --progress --profile --colors"
   },
   "dependencies": {
     "autoprefixer-stylus": "^0.13.0",
     "concurrently": "^3.4.0",
     "eslint": "^3.19.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-react": "6.10.3",
     "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.3",
     "font-awesome": "^4.7.0",
     "history": "^4.5.0",
+    "prop-types": "^15.5.8",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-icons": "^2.2.3",
@@ -40,8 +34,30 @@
     "react-router": "4.0.0",
     "react-router-dom": "4.0.0",
     "react-router-native": "4.0.0",
-    "react-scripts": "^0.9.5",
     "react-tap-event-plugin": "^2.0.1",
-    "stylus": "^0.54.5"
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "stylus": "^0.54.5",
+    "react-redux": "^5.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.28.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "redux-logger": "^3.0.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }

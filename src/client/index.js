@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Routes
-import Routes from './components/shared/Routes';
+import Routes from './containers/pages/shared/Routes';
 
 // Material UI functions
 import injectTapEventPlugin from 'react-tap-event-plugin';

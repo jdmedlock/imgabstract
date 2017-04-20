@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../css/style.css';
+import './containers/style.css';
 
 // Application components
-import PageHeader from './client/PageHeader';
-import SearchTerm from './client/SearchTerm';
-import SearchResults from './client/SearchResults';
-import PageFooter from './client/PageFooter';
+import PageHeader from './client/containers/pages/spa/PageHeader';
+import SearchTerm from './client/containers/pages/spa/SearchTerm';
+import SearchResults from './client/containers/pages/spa/SearchResults';
+import PageFooter from './client/containers/pages/spa/PageFooter';
 
 class App extends Component {
   render() {

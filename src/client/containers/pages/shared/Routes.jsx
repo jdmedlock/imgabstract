@@ -2,7 +2,7 @@ import React from 'react'
 
 //Routes
 import NotFound from './NotFound'
-import App from './../App';
+import App from './../../App';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
