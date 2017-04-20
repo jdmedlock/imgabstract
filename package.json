@@ -9,7 +9,7 @@
     "url": "https://github.com/jdmedlock/imgabstract/issues"
   },
   "homepage": "https://github.com/jdmedlock/imgabstract#readme",
-  "main": "/src/client/index.js",
+  "main": "webpack.config.js",
   "repository": "https://github.com/jdmedlock/imgabstract.git",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",

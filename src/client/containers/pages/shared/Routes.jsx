@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router';
+import { browserRouter, Switch, Route } from 'react-router';
 
 // Routes
 import NotFound from './NotFound';
@@ -7,12 +7,12 @@ import App from './../../../App';
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <browserRouter>
       <Switch>
         <Route path="/" exact component={App} />
         <Route component={NotFound} />
       </Switch>
-    </BrowserRouter>
+    </browserRouter>
   );
 };
 

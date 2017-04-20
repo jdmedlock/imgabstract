@@ -39,6 +39,10 @@ const config = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
+        query:
+        {
+          presets:['react']
+        }
       },
       {
         test: /\.css$/,
@@ -56,6 +60,5 @@ const config = {
   plugins: dev ? [HTMLWebpackPluginConfig] :
   [HTMLWebpackPluginConfig, DefinePluginConfig, LoaderOptionsPluginConfig, UglifyPluginConfig],
 };
-
 
 module.exports = config;
