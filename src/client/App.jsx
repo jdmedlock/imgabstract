@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './containers/style.css';
 
 // Application components
-import PageHeader from './client/containers/pages/spa/PageHeader';
+import PageHeader from './client/containers/pages/shared/PageHeader';
 import SearchTerm from './client/containers/pages/spa/SearchTerm';
 import SearchResults from './client/containers/pages/spa/SearchResults';
-import PageFooter from './client/containers/pages/spa/PageFooter';
+import PageFooter from './client/containers/pages/shared/PageFooter';
 
 class App extends Component {
   render() {
