@@ -31,7 +31,7 @@ const LoaderOptionsPluginConfig = new webpack.LoaderOptionsPlugin({
 const config = {
   entry: [
     'react-hot-loader/patch',
-    path.join(__dirname, '/src/client/index.js'),
+    path.join(__dirname, '/src/client/index.jsx'),
   ],
   module: {
     loaders: [

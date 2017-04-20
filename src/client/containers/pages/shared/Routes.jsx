@@ -1,20 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router';
 
-//Routes
-import NotFound from './NotFound'
-import App from './../../App';
+// Routes
+import NotFound from './NotFound';
+import App from './../../../App';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-
-const Routes = (props) => {
+const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={App} /> 
-        <Route component={NotFound} />  
+        <Route path="/" exact component={App} />
+        <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default Routes
+export default Routes;
