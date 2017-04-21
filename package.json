@@ -12,7 +12,7 @@
   "main": "webpack.config.js",
   "repository": "https://github.com/jdmedlock/imgabstract.git",
   "scripts": {
-    "test": "mocha --compilers js:babel-register --require ./tests/helpers.js --require ./tests/dom.js --recursive",
+    "test": "mocha --compilers js:babel-register --require ./tests/index.js --require ./tests/dom.js --recursive",
     "start": "NODE_ENV=development webpack-dev-server",
     "build": "NODE_ENV=development webpack --progress --profile --colors",
     "prod": "NODE_ENV=production webpack -p --progress --profile --colors"
