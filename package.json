@@ -12,6 +12,7 @@
   "main": "webpack.config.js",
   "repository": "https://github.com/jdmedlock/imgabstract.git",
   "scripts": {
+    "test": "mocha --compilers js:babel-register --require ./tests/helpers.js --require ./tests/dom.js --recursive",
     "start": "NODE_ENV=development webpack-dev-server",
     "build": "NODE_ENV=development webpack --progress --profile --colors",
     "prod": "NODE_ENV=production webpack -p --progress --profile --colors"
@@ -19,7 +20,9 @@
   "dependencies": {
     "autoprefixer-stylus": "^0.13.0",
     "babel-preset-es2015": "^6.24.1",
+    "chai": "^3.5.0",
     "concurrently": "^3.4.0",
+    "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
@@ -27,8 +30,10 @@
     "eslint-plugin-react": "6.10.3",
     "font-awesome": "^4.7.0",
     "history": "^4.5.0",
+    "mocha": "^3.2.0",
     "prop-types": "^15.5.8",
     "react": "^15.4.2",
+    "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.4.2",
     "react-icons": "^2.2.3",
     "react-native": "^0.43.3",
@@ -39,6 +44,7 @@
     "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
+    "sinon": "^2.1.0",
     "stylus": "^0.54.5"
   },
   "devDependencies": {
