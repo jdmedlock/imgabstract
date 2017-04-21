@@ -3,6 +3,7 @@ import FACodePen from 'react-icons/lib/fa/codepen';
 import FAFire from 'react-icons/lib/fa/fire';
 import FAGitHub from 'react-icons/lib/fa/github';
 import FATwitter from 'react-icons/lib/fa/twitter';
+import PropTypes from 'prop-types';
 
 class PageFooter extends Component {
   render() {

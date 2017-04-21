@@ -41,7 +41,7 @@ const config = {
         loader: 'babel-loader',
         query:
         {
-          presets:['react']
+          presets:['es2015', 'react']
         }
       },
       {
