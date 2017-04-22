@@ -12,7 +12,7 @@
   "main": "webpack.config.js",
   "repository": "https://github.com/jdmedlock/imgabstract.git",
   "scripts": {
-    "test": "mocha --compilers js:babel-register --require ./tests/index.js --require ./tests/dom.js --recursive",
+    "test": "mocha --compilers js:babel-register ./tests/setup.jsx ./tests/dom.jsx ./tests/**/**/*-test.jsx --recursive",
     "start": "NODE_ENV=development webpack-dev-server",
     "build": "NODE_ENV=development webpack --progress --profile --colors",
     "prod": "NODE_ENV=production webpack -p --progress --profile --colors"
@@ -45,6 +45,7 @@
     "react-test-renderer": "^15.5.4",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
+    "regenerator-runtime": "^0.10.3",
     "sinon": "^2.1.0",
     "stylus": "^0.54.5"
   },

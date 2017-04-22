@@ -55,7 +55,7 @@ const config = {
   },
   output: {
     filename: 'index.js',
-    path: path.join(__dirname, '/docs'),
+    path: path.join(__dirname, '/dist'),
   },
   plugins: dev ? [HTMLWebpackPluginConfig] :
   [HTMLWebpackPluginConfig, DefinePluginConfig, LoaderOptionsPluginConfig, UglifyPluginConfig],

@@ -1,3 +1,5 @@
+import "regenerator-runtime/runtime";
+
 const jsdom = require('jsdom').jsdom;
 const exposedProperties = ['window', 'navigator', 'document'];
 

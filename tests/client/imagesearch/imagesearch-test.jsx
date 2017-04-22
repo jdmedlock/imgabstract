@@ -5,8 +5,8 @@ import {expect} from 'chai';
 import SearchTerm from './../../../src/client/containers/pages/imagesearch/SearchTerm';
 
 describe('<SearchTerm>', function () {
-  it('should have a button', function () {
+  it('should have a label', function () {
     const wrapper = shallow(<SearchTerm/>);
-    expect(wrapper.find('button')).to.have.length(1);
+    expect(wrapper.find('label')).to.have.length(1);
   });
 });
