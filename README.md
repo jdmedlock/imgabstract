@@ -10,5 +10,5 @@ Once you've finished implementing these user stories, click the "I've completed 
 
 ## Additional Information
 
-- [User Documentation](https://github.com/jdmedlock/imgabstract/blob/master/docs/user/README.md)
-- [Developer Documentation](https://github.com/jdmedlock/imgabstract/blob/master/docs/dev/README.md)
+- [User Documentation](https://github.com/jdmedlock/imgabstract/blob/development/docs/user/README.md)
+- [Developer Documentation](https://github.com/jdmedlock/imgabstract/blob/development/docs/dev/README.md)
