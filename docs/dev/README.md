@@ -8,8 +8,7 @@ the programs progress to assist in debugging core functionality.## Description
 
 ### Screen Layout
 ---
-![Screen Layout image](https://github.com/jdmedlock/imgabstract/blob/master/docs/shared/Image%20Search%20Abstraction.png "Screen Layout")
-
+![Screen Layout image](https://github.com/jdmedlock/imgabstract/blob/development/docs/shared/Image%20Search%20Abstraction.png "Screen Layout")
 ---
 
 ## Application Infrastructure
@@ -103,7 +102,6 @@ if otherwise you are using *mac OS* or a *windows OS* just open `package.json` o
 "scripts": {
     "test": "set NODE_ENV=development & webpack-dev-server",
 ```
-
 
 ## Deploy
 
