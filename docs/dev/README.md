@@ -30,8 +30,11 @@ for the libraries used by this application. However, the following table lists
 the less common libraries or those used in novel ways.
 
 | Library              | Purpose                    | Where Used                     
-|:-------------------- |:-------------------------- |:-------------------------- 
+|:-------------------- |:-------------------------- |:-------------------------
+| chai                 | Assertion library          | Assertions for server component testing
 | concurrently         | Concurrently run commands to start the client and server | start script in package.json 
+| enzyme               | React component testing    | Client component testing
+| mocha                | Test framework for NodeJS  | Client & server component testing
 
 ### Directory Structure
 
