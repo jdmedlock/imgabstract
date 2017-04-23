@@ -21,7 +21,8 @@ and Redux, while Babel is used to transplile the code for the latest browsers
 version. Axios is used for the POST requests.
 
 The whole webapp is built on the front-end, the `server.js` file is just to 
-deploy on Heroku using node, the entire project is made in a way that it can use whatever back-end language or technology that can serve static files.
+deploy on Heroku using node, the entire project is made in a way that it can use 
+whatever back-end language or technology that can serve static files.
 
 ### Libraries
 
@@ -92,7 +93,8 @@ as for developers responsible for maintaining it.
 
 ## Install
 
-You must have npm installed in your local machine, node comes with npm so if you want you can install it from [Node official website](https://nodejs.org/en/).
+You must have npm installed in your local machine, node comes with npm so if you 
+want you can install it from [Node official website](https://nodejs.org/en/).
 
 clone the repo on your local machine thru the command line.
 
@@ -100,21 +102,27 @@ clone the repo on your local machine thru the command line.
 
 and then run `npm i` to install all the dependencies needed to run this project.
 
-after that if you use a *linux OS* modify this script inside `package.json` and run `npm test`, then you can visit _localhost:8080_ on your browser to see the project.
+after that if you use a *linux OS* modify this script inside `package.json` and 
+run `npm test`, then you can visit _localhost:8080_ on your browser to see the 
+project.
 
 ```
 "scripts": {
     "test": "NODE_ENV=development webpack-dev-server",
 ```
 
-if otherwise you are using *mac OS* or a *windows OS* just open `package.json` on your editor and verify the start script matches as follows before running `npm test` to see the website on _localhost:8080_.
+if otherwise you are using *mac OS* or a *windows OS* just open `package.json` 
+on your editor and verify the start script matches as follows before running 
+`npm test` to see the website on _localhost:8080_.
 
 ```
 "scripts": {
-    "test": "set NODE_ENV=development & webpack-dev-server",
+    "test": "mocha --compilers js:babel-register ./tests/setup.jsx ./tests/dom.jsx ./tests/**/**/*-test.jsx --recursive",
 ```
 
 ## Deploy
 
-Before deploying on Heroku make sure to run `npm run build` and test it with `npm start` to check that everything is working as intended.
-To deploy on Heroku, simply create a new project on the website, link this repository under the "deploy" tab and you're done.
+Before deploying on Heroku make sure to run `npm run build` and test it with 
+`npm start` to check that everything is working as intended.To deploy on Heroku, 
+simply create a new project on the website, link this repository under the 
+"deploy" tab and you're done.
