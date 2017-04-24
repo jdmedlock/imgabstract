@@ -3,7 +3,7 @@ import { browserRouter, Switch, Route } from 'react-router';
 
 // Routes
 import NotFound from './NotFound';
-import App from './../../../App';
+import App from './../../App';
 
 const Routes = () => {
   return (

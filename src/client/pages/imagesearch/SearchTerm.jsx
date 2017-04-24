@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 class SearchTerm extends Component {
   constructor(props) {
@@ -12,10 +11,10 @@ class SearchTerm extends Component {
 
   handleChange(event) {
     this.setState(
-      { searchTerms: event.target.value },
+      { searchTerms: event.target.value }
     );
   }
- 
+
   handleSubmit(event) {
     event.preventDefault();
     console.log(`${this.state.searchTerms}`);

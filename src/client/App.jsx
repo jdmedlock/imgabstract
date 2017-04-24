@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './containers/style.css';
+import './pages/shared/style.css';
 
 // Application components
-import PageHeader from './containers/pages/shared/PageHeader';
-import SearchTerm from './containers/pages/imagesearch/SearchTerm';
-import SearchResults from './containers/pages/imagesearch/SearchResults';
-import PageFooter from './containers/pages/shared/PageFooter';
+import PageHeader from './pages/shared/PageHeader';
+import SearchTerm from './pages/imagesearch/SearchTerm';
+import SearchResults from './/pages/imagesearch/SearchResults';
+import PageFooter from './pages/shared/PageFooter';
 
 class App extends Component {
   render() {

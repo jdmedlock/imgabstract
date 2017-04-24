@@ -71,14 +71,16 @@ as for developers responsible for maintaining it.
     - *index.jsx* entry React point, here hotmodule and store are set and scss 
     is integrated 
     - */actions* Contains Redux actions
-    - */containers* Contains the React stateful components. 
-      - *favicon.ico*
-      - *style.css*
-      - *style.styl*
-      - */pages* Components are organized into one subdirectory for each page 
-      in the application.
-        - */page-name*
-        - */shared*
+    - */pages* Components are organized into one subdirectory for each page 
+      in the application. 
+      - */page-name* Contains the components that make up a page. If multiple containers
+      are used they are included here as well.
+      - */shared* Contains files that are shared across pages. This includes React routes,
+      common components (like navbars, headers, footers, etc.), CSS, and favicons.
+        - *favicon.ico*
+        - *style.css*
+        - *style.styl*
+        - *Routes.jsx* React route definitions
     - */reducers* This directory contains the Redux cases
   - */server*
     - *server.js* entry point for node
@@ -87,9 +89,13 @@ as for developers responsible for maintaining it.
     - */services* This directory will contain the `.js` files which accept
     and process API requests.
 - */tests*
-  - *dom.js*
-  - *helpers.js*
-  - *index.js*
+  - *dom.js* Defines globals for DOM elements referenced in our tests.
+  - *helpers.js* Establishes globals for test frameworks and assertion referenced in our tests.
+  - *setup.js* Test setup script (requires, presets, plugins, etc.)
+  - */client* Tests specific to the client-side of the application.
+    - */page-name* Contains all tests for the components on a particular page of the application.
+      - `testname-test.jsx` One file for each set of tests
+  - */server* Tests specific to the server-side of the application.
 
 ## Install
 
