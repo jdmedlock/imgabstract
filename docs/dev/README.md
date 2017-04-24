@@ -4,7 +4,9 @@ Although the FCC user stories dictate that this challenge be implemented as
 a simple API I've chosen to expand the scope to also include a more friendly 
 user interface implemented in React to allow me to test my React skills. A
 secondary benefit of this expanded scope is to provide an in-screen log of
-the programs progress to assist in debugging core functionality.## Description
+the programs progress to assist in debugging core functionality.
+
+## Description
 
 ### Screen Layout
 ---
