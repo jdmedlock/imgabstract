@@ -18,7 +18,7 @@ You can get feedback on your project by sharing it with your friends on Facebook
 
 ### User Stories - Stretch Goals
 
-4. I want a polished user interface and to get experience using Reac.t
+4. I want a polished user interface and to get experience using React.
 
 ### Resources
 
